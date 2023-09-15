@@ -1,0 +1,214 @@
+Given I am on welcome page and i press take me to demo mode
+-> done: Smart3dSteps.GivenIAmOnWelcomePageAndIPressTakeMeToDemoMode() (5.5s)
+Then I press ok on Demo mode popup
+-> done: Smart3dSteps.ThenIPressOkOnDemoModePopup() (7.1s)
+And I press no thanks on welcome popup
+-> done: Smart3dSteps.ThenIPressNoThanksOnWelcomePopup() (5.8s)
+When I am on All-Around page and i validate the program card is "All-Around"
+-> done: Smart3dSteps.WhenIAmOnAll_AroundPageAndIValidateTheProgramCardIs("All-Around") (35.3s)
+And I press split sourruounding volume on All-Around program
+-> done: Smart3dSteps.WhenIPressSplitSourruoundingVolumeOnAll_AroundProgram() (44.9s)
+Then I validate "Right HI" volume is '9'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("Right HI", "9") (78.9s)
+And I validate "Left HI" volume is '9'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("Left HI", "9") (78.3s)
+When I set "Right HI" sourrounding volume to "3" of All-Around program
+-> done: Smart3dSteps.WhenISetSourroundingVolumeToOfAll_AroundProgram("Right HI", "3") (39.4s)
+And I set "Left HI" sourrounding volume to "10" of All-Around program
+-> done: Smart3dSteps.WhenISetSourroundingVolumeToOfAll_AroundProgram("Left HI", "10") (40.2s)
+Then I validate "Right HI" volume is '3'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("Right HI", "3") (79.0s)
+And I validate "Left HI" volume is '10'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("Left HI", "10") (78.9s)
+When I press merge sourrounding voulume on All-Around program
+-> done: Smart3dSteps.WhenIPressMergeSourroundingVoulumeOnAll_AroundProgram() (44.9s)
+Then I validate "HI" volume is '3'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("HI", "3") (77.7s)
+When I set "HI" sourrounding volume to "13" of All-Around program
+-> done: Smart3dSteps.WhenISetSourroundingVolumeToOfAll_AroundProgram("HI", "13") (39.2s)
+Then I validate "HI" volume is '13'
+-> done: Smart3dSteps.ThenIValidateVolumeIs("HI", "13") (77.7s)
+When I press 'Speech Clarity' quick button on All-Around Program
+-> done: Smart3dSteps.WhenIPressQuickButtonOnAll_AroundProgram("Speech Clarity") (44.9s)
+Then validate 'Speech Clarity' quick button is enabled on All-Around Program
+-> done: Smart3dSteps.ThenValidateQuickButtonIsEnabledOnAll_AroundProgram("Speech Clarity") (34.8s)
+When I press 'Noise filter' quick button on All-Around Program
+-> done: Smart3dSteps.WhenIPressQuickButtonOnAll_AroundProgram("Noise filter") (44.9s)
+Then validate 'Noise filter' quick button is enabled on All-Around Program
+-> done: Smart3dSteps.ThenValidateQuickButtonIsEnabledOnAll_AroundProgram("Noise filter") (34.8s)
+And validate 'Speech clarity' quick button is disabled on All-Around program
+-> done: Smart3dSteps.ThenValidateQuickButtonIsDisabledOnAll_AroundProgram("Speech clarity") (34.9s)
+When I press 'Speech clarity' quick button on All-Around Program
+-> done: Smart3dSteps.WhenIPressQuickButtonOnAll_AroundProgram("Speech clarity") (45.0s)
+Then validate 'Speech clarity' quick button is enabled on All-Around Program
+-> done: Smart3dSteps.ThenValidateQuickButtonIsEnabledOnAll_AroundProgram("Speech clarity") (34.9s)
+And validate 'Noise filter' quick button is disabled on All-Around program
+-> done: Smart3dSteps.ThenValidateQuickButtonIsDisabledOnAll_AroundProgram("Noise filter") (34.7s)
+When I press Sound Enhancer button on 'All Around' program
+-> done: Smart3dSteps.WhenIPressSoundEnhancerButtonOnProgram("All Around") (35.5s)
+And I set 'Bass gain' to '4' on All-Around Sound Enhancer
+-> done: Smart3dSteps.WhenISetToOnAll_AroundSoundEnhancer("Bass gain", "4") (21.6s)
+And I set 'Middle gain' to '-3' on All-Around Sound Enhancer
+-> done: Smart3dSteps.WhenISetToOnAll_AroundSoundEnhancer("Middle gain", "-3") (8.9s)
+And I set 'Treble gain' to '5' on All-Around Sound Enhancer
+-> done: Smart3dSteps.WhenISetToOnAll_AroundSoundEnhancer("Treble gain", "5") (40.0s)
+Then I validate "Bass gain" is "4" on All-Around Sound Enhancer
+-> done: Smart3dSteps.ThenIValidateIsOnAll_AroundSoundEnhancer("Bass gain", "4") (19.1s)
+And I validate "Middle gain" is "-3" on All-Around Sound Enhancer
+-> done: Smart3dSteps.ThenIValidateIsOnAll_AroundSoundEnhancer("Middle gain", "-3") (46.1s)
+And I validate "Treble gain" is "5" on All-Around Sound Enhancer
+-> done: Smart3dSteps.ThenIValidateIsOnAll_AroundSoundEnhancer("Treble gain", "5") (51.0s)
+When I press Tinnitus Manager on 'All Around' Sound Enhancer
+-> done: Smart3dSteps.WhenIPressTinnitusManagerOnSoundEnhancer("All Around") (4.4s)
+And I press Nature sounds button "Calming waves" on All-Around Tinnitus Manager
+-> done: Smart3dSteps.WhenIPressNatureSoundsButtonOnAll_AroundTinnitusManager("Calming waves") (12.7s)
+And I press Nature sounds button "Breaking Waves" on All-Around Tinnitus Manager
+-> done: Smart3dSteps.WhenIPressNatureSoundsButtonOnAll_AroundTinnitusManager("Breaking Waves") (4.6s)
+When I press the exit button on 'All Around' Sound Enhancer
+-> done: Smart3dSteps.WhenIPressTheExitButtonOnSoundEnhancer("All Around") (4.8s)
+When I swipe left to 'Hear in noise' program from current program
+-> done: Smart3dSteps.WhenISwipeLeftToProgramFromCurrentProgram("Hear in noise") (61.6s)
+Then I validate program card is "Hear in noise"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Hear in noise") (34.7s)
+When I press Sound Enhancer button on 'Hear in noise' program
+-> done: Smart3dSteps.WhenIPressSoundEnhancerButtonOnProgram("Hear in noise") (35.9s)
+And I press Tinnitus Manager on 'Hear in noise' Sound Enhancer
+-> done: Smart3dSteps.WhenIPressTinnitusManagerOnSoundEnhancer("Hear in noise") (4.5s)
+When I press white noise button Slight variation on Hear in noise Tinnitus Manager
+-> done: Smart3dSteps.WhenIPressWhiteNoiseButtonSlightVariationOnHearInNoiseTinnitusManager() (16.2s)
+When I press Reset button on All-Around Tinnitus Manager
+-> done: Smart3dSteps.WhenIPressResetButtonOnAll_AroundTinnitusManager() (4.6s)
+When I press the exit button on 'Hear in noise' Sound Enhancer
+-> done: Smart3dSteps.WhenIPressTheExitButtonOnSoundEnhancer("Hear in noise") (4.9s)
+When I swipe left to 'Outdoor' program from current program
+-> done: Smart3dSteps.WhenISwipeLeftToProgramFromCurrentProgram("Outdoor") (61.5s)
+Then I validate program card is "Outdoor"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Outdoor") (34.6s)
+When I press Sound Enhancer button on 'Outdoor' program
+-> done: Smart3dSteps.WhenIPressSoundEnhancerButtonOnProgram("Outdoor") (36.1s)
+And I drag Wind Noise Reduction to Strong on Outdoor Sound Enhancer
+-> done: Smart3dSteps.WhenIDragWindNoiseReductionToStrongOnOutdoorSoundEnhancer() (6.9s)
+When I press the exit button on 'Outdoor' Sound Enhancer
+-> done: Smart3dSteps.WhenIPressTheExitButtonOnSoundEnhancer("Outdoor") (4.4s)
+And I swipe left to 'Music' program from current program
+-> done: Smart3dSteps.WhenISwipeLeftToProgramFromCurrentProgram("Music") (61.5s)
+Then I validate program card is "Music"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Music") (34.9s)
+When I press 'Music' program on the top ribbon bar
+-> done: Smart3dSteps.WhenIPressProgramOnTheTopRibbonBar("Music") (44.9s)
+Then I validate program card is "Music"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Music") (34.8s)
+When I press 'Outdoor' program on the top ribbon bar
+-> done: Smart3dSteps.WhenIPressProgramOnTheTopRibbonBar("Outdoor") (45.0s)
+Then I validate program card is "Outdoor"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Outdoor") (34.8s)
+When I press 'Hear in noise' program on the top ribbon bar
+-> done: Smart3dSteps.WhenIPressProgramOnTheTopRibbonBar("Hear in noise") (45.1s)
+Then I validate program card is "Hear in noise"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("Hear in noise") (34.8s)
+When I press 'All-Around' program on the top ribbon bar
+-> done: Smart3dSteps.WhenIPressProgramOnTheTopRibbonBar("All-Around") (45.1s)
+Then I validate program card is "All-Around"
+-> done: Smart3dSteps.ThenIValidateProgramCardIs("All-Around") (34.8s)
+When I press Program overview button on topribbonbar
+-> done: Smart3dSteps.WhenIPressProgramOverviewButtonOnTopribbonbar() (44.6s)
+And I press 'Hear in noise' program on Program overview
+-> done: Smart3dSteps.WhenIPressProgramOnProgramOverview("Hear in noise") (44.8s)
+When I press 'Outdoor' program on Program overview
+-> done: Smart3dSteps.WhenIPressProgramOnProgramOverview("Outdoor") (45.2s)
+When I press 'Music' program on Program overview
+-> done: Smart3dSteps.WhenIPressProgramOnProgramOverview("Music") (45.1s)
+When I press 'All-Around' program on Program overview
+-> done: Smart3dSteps.WhenIPressProgramOnProgramOverview("All-Around") (45.1s)
+When I press the Close button on Program overview
+-> done: Smart3dSteps.WhenIPressTheCloseButtonOnProgramOverview() (44.8s)
+When I press menu item 'My ReSound' on bottom ribbon bar
+-> done: Smart3dSteps.WhenIPressMenuItemOnBottomRibbonBar("My ReSound") (44.8s)
+And I press 'Learn about the app' on My ReSound
+-> done: Smart3dSteps.WhenIPressOnMyReSound("Learn about the app") (44.8s)
+When I press Volume control on Learn about the app
+-> done: Smart3dSteps.WhenIPressVolumeControlOnLearnAboutTheApp() (47.0s)
+And I swipe left to '2 / 3' page on Learn about the app
+-> done: Smart3dSteps.WhenISwipeLeftToPageOnLearnAboutTheApp("2 / 3") (43.0s)
+Then validate 'Left and right volume' animation is shown on Volume control
+-> done: Smart3dSteps.ThenValidateAnimationIsShownOnVolumeControl("Left and right vo...") (4.3s)
+When I swipe left to '3 / 3' page on Learn about the app
+-> done: Smart3dSteps.WhenISwipeLeftToPageOnLearnAboutTheApp("3 / 3") (17.7s)
+Then validate 'Mute' animation is shown on Volume control
+-> done: Smart3dSteps.ThenValidateAnimationIsShownOnVolumeControl("Mute") (4.3s)
+When I close on Learn about the app and back to My Resound page
+-> done: Smart3dSteps.WhenICloseOnLearnAboutTheAppAndBackToMyResoundPage() (80.5s)
+And I press 'Guiding tips' on My ReSound
+-> done: Smart3dSteps.WhenIPressOnMyReSound("Guiding tips") (36.0s)
+When I press 'OK' on Please notice dialog
+-> done: Smart3dSteps.WhenIPressOnPleaseNoticeDialog("OK") (4.3s)
+Then validate title is 'Guiding tips' on Guiding tips page
+-> done: Smart3dSteps.ThenValidateTitleIsOnGuidingTipsPage("Guiding tips") (34.9s)
+When I press 'Noise filter' on Guiding tips
+-> done: Smart3dSteps.WhenIPressOnGuidingTips("Noise filter") (35.8s)
+And I press 'Got it' on 'Noise filter' nudging dialog
+-> done: Smart3dSteps.WhenIPressOnNudgingDialog("Got it", "Noise filter") (22.0s)
+And I press 'My Resound' on bottom ribbon bar and back to Guiding tips on My Resound
+-> done: Smart3dSteps.WhenIPressOnBottomRibbonBarAndBackToGuidingTipsOnMyResound("My Resound") (44.8s)
+And I press 'Music program' on Guiding tips
+-> done: Smart3dSteps.WhenIPressOnGuidingTips("Music program") (35.8s)
+Then validate 'Got it' button enabled on Music program nudging dialog
+-> done: Smart3dSteps.ThenValidateButtonEnabledOnMusicProgramNudgingDialog("Got it") (4.3s)
+Then validate 'Back to tips' button enabled on Music program nudging dialog
+-> done: Smart3dSteps.ThenValidateButtonEnabledOnMusicProgramNudgingDialog("Back to tips") (4.3s)
+When I press 'Got it' on 'Music program' nudging dialog
+-> done: Smart3dSteps.WhenIPressOnNudgingDialog("Got it", "Music program") (32.9s)
+And I press menu item 'More' on bottom ribbon bar
+-> done: Smart3dSteps.WhenIPressMenuItemOnBottomRibbonBar("More") (44.9s)
+Then validate Auto-activate favorite locations switch is 'on'
+-> done: Smart3dSteps.ThenValidateAuto_ActivateFavoriteLocationsSwitchIs("on") (34.6s)
+When I press 'Auto-activate favorite locations' switch on More menu
+-> done: Smart3dSteps.WhenIPressSwitchOnMoreMenu("Auto-activate fav...") (44.6s)
+Then validate Auto-activate favorite locations switch is 'off'
+-> done: Smart3dSteps.ThenValidateAuto_ActivateFavoriteLocationsSwitchIs("off") (34.7s)
+When I press 'Auto-activate favorite locations' switch on More menu
+-> done: Smart3dSteps.WhenIPressSwitchOnMoreMenu("Auto-activate fav...") (44.8s)
+Then validate Auto-activate favorite locations switch is 'on'
+-> done: Smart3dSteps.ThenValidateAuto_ActivateFavoriteLocationsSwitchIs("on") (34.6s)
+When I press more menu item 'About'
+-> done: Smart3dSteps.WhenIPressMoreMenuItem("About") (44.8s)
+Then validate page title is displayed on 'About' page
+-> done: Smart3dSteps.ThenValidatePageTitleIsDisplayedOnPage("About") (56.7s)
+And validate html view is displayed on 'About' page
+-> done: Smart3dSteps.ThenValidateHtmlViewIsDisplayedOnPage("About") (34.8s)
+When I press 'back' from 'About' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "About") (44.8s)
+And I press more menu item 'Legal information'
+-> done: Smart3dSteps.WhenIPressMoreMenuItem("Legal information") (44.8s)
+When I press Legal information item 'MANUFACTURER'
+-> done: Smart3dSteps.WhenIPressLegalInformationItem("MANUFACTURER") (44.6s)
+Then I validate page title is displayed on 'Manufacturer' page
+-> done: Smart3dSteps.ThenIValidatePageTitleIsDisplayedOnPage("Manufacturer") (57.3s)
+When I press 'back' from 'Manufacturer' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "Manufacturer") (45.1s)
+And I press Legal information item 'TERMS AND CONDITIONS'
+-> done: Smart3dSteps.WhenIPressLegalInformationItem("TERMS AND CONDITIONS") (44.7s)
+Then I validate page title is displayed on 'Terms and Conditions' page
+-> done: Smart3dSteps.ThenIValidatePageTitleIsDisplayedOnPage("Terms and Conditions") (57.1s)
+When I press 'back' from 'Terms and Conditions' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "Terms and Conditions") (45.0s)
+And I press Legal information item 'PRIVACY POLICY'
+-> done: Smart3dSteps.WhenIPressLegalInformationItem("PRIVACY POLICY") (44.7s)
+Then I validate page title is displayed on 'PRIVACY POLICY' page
+-> done: Smart3dSteps.ThenIValidatePageTitleIsDisplayedOnPage("PRIVACY POLICY") (56.7s)
+Then validate html view is displayed on 'PRIVACY POLICY' page
+-> done: Smart3dSteps.ThenValidateHtmlViewIsDisplayedOnPage("PRIVACY POLICY") (34.5s)
+When I press 'back' from 'PRIVACY POLICY' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "PRIVACY POLICY") (44.8s)
+And I press 'back' from 'Legal information' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "Legal information") (44.7s)
+And I press more menu item 'Support'
+-> done: Smart3dSteps.WhenIPressMoreMenuItem("Support") (44.9s)
+Then I validate page title is displayed on 'Support' page
+-> done: Smart3dSteps.ThenIValidatePageTitleIsDisplayedOnPage("Support") (56.8s)
+And validate html view is displayed on 'Support' page
+-> done: Smart3dSteps.ThenValidateHtmlViewIsDisplayedOnPage("Support") (34.6s)
+When I press 'back' from 'Support' page
+-> done: Smart3dSteps.WhenIPressFromPage("back", "Support") (44.6s)
+And I press menu item 'Home' on bottom ribbon bar
+-> done: Smart3dSteps.WhenIPressMenuItemOnBottomRibbonBar("Home") (44.8s)
